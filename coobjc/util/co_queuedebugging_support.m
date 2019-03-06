@@ -27,7 +27,7 @@
 #include "coroutine.h"
 #import <Foundation/Foundation.h>
 #include <mach/vm_types.h>
-#import <fishhook/fishhook.h>
+#import "fishhook.h"
 #include <sys/sysctl.h>
 
 

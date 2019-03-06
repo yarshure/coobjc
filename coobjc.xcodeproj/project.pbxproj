@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02656B86E0FEA409D7988199 /* libPods-coswift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B83F808983E7DB693B20B7F8 /* libPods-coswift.a */; };
 		1807602621A256B5006FD552 /* co_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1807602421A256B4006FD552 /* co_queue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1807602721A256B5006FD552 /* co_queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1807602521A256B5006FD552 /* co_queue.m */; };
 		1827C573219AE57E0004CE59 /* co_csp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827C561219AE57D0004CE59 /* co_csp.m */; };
@@ -30,7 +29,16 @@
 		18EE50AB21AE7D7600F244B6 /* COActorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE50A921AE7D7600F244B6 /* COActorMessage.m */; };
 		18EE50AE21AE7DA400F244B6 /* COActorCompletable.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EE50AC21AE7DA400F244B6 /* COActorCompletable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EE50AF21AE7DA400F244B6 /* COActorCompletable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE50AD21AE7DA400F244B6 /* COActorCompletable.m */; };
-		5D7EAFC6EF37EC2817208282 /* libPods-coobjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 539E1B31B66ADA95F4988159 /* libPods-coobjc.a */; };
+		69C16282222F87E4003443AD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69C1627D222F87E4003443AD /* LICENSE */; };
+		69C16283222F87E4003443AD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69C1627D222F87E4003443AD /* LICENSE */; };
+		69C16284222F87E4003443AD /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 69C1627E222F87E4003443AD /* fishhook.c */; };
+		69C16285222F87E4003443AD /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 69C1627E222F87E4003443AD /* fishhook.c */; };
+		69C16286222F87E4003443AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69C1627F222F87E4003443AD /* README.md */; };
+		69C16287222F87E4003443AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69C1627F222F87E4003443AD /* README.md */; };
+		69C16288222F87E4003443AD /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C16280222F87E4003443AD /* fishhook.h */; };
+		69C16289222F87E4003443AD /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C16280222F87E4003443AD /* fishhook.h */; };
+		69C1628A222F87E4003443AD /* fishhook.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 69C16281222F87E4003443AD /* fishhook.podspec */; };
+		69C1628B222F87E4003443AD /* fishhook.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 69C16281222F87E4003443AD /* fishhook.podspec */; };
 		A32FD4D321B64E6D008B4295 /* co_queuedebugging_support.m in Sources */ = {isa = PBXBuildFile; fileRef = A32FD4D221B64E6D008B4295 /* co_queuedebugging_support.m */; };
 		A35C04A121EC369F00AC7D6E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C04A021EC369F00AC7D6E /* Promise.swift */; };
 		A35C04A321EC36AD00AC7D6E /* Chan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C04A221EC36AD00AC7D6E /* Chan.swift */; };
@@ -39,7 +47,7 @@
 		A37DDF831E8A62E400E11BD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37DDF821E8A62E400E11BD9 /* Foundation.framework */; };
 		A3824E91221FFD5400B6BFE7 /* coobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85037CF1B9C6D8400864DF0 /* coobjc.framework */; };
 		A3824E94221FFEC200B6BFE7 /* coswift.h in Headers */ = {isa = PBXBuildFile; fileRef = A35C049A21EC366A00AC7D6E /* coswift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A39A8CAE2226695900A18C69 /* co_tuple.h in Headers */ = {isa = PBXBuildFile; fileRef = A39A8CAC2226695900A18C69 /* co_tuple.h */; };
+		A39A8CAE2226695900A18C69 /* co_tuple.h in Headers */ = {isa = PBXBuildFile; fileRef = A39A8CAC2226695900A18C69 /* co_tuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A39A8CAF2226695900A18C69 /* co_tuple.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A8CAD2226695900A18C69 /* co_tuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A3D67CE121EDF56E009328CC /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D67CE021EDF56E009328CC /* Errors.swift */; };
 		A3D67CE321EDF57F009328CC /* coswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D67CE221EDF57F009328CC /* coswift.swift */; };
@@ -64,7 +72,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		090CF6E574DD4748505F69A2 /* Pods-coswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coswift/Pods-coswift.debug.xcconfig"; sourceTree = "<group>"; };
 		1807602421A256B4006FD552 /* co_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = co_queue.h; sourceTree = "<group>"; };
 		1807602521A256B5006FD552 /* co_queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = co_queue.m; sourceTree = "<group>"; };
 		1827C561219AE57D0004CE59 /* co_csp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = co_csp.m; sourceTree = "<group>"; };
@@ -87,9 +94,11 @@
 		18EE50A921AE7D7600F244B6 /* COActorMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COActorMessage.m; sourceTree = "<group>"; };
 		18EE50AC21AE7DA400F244B6 /* COActorCompletable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COActorCompletable.h; sourceTree = "<group>"; };
 		18EE50AD21AE7DA400F244B6 /* COActorCompletable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COActorCompletable.m; sourceTree = "<group>"; };
-		1C21392EBD5DCF258D11E284 /* Pods-coobjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coobjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coobjc/Pods-coobjc.debug.xcconfig"; sourceTree = "<group>"; };
-		539E1B31B66ADA95F4988159 /* libPods-coobjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coobjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78543E2E7A973683F37BF1C8 /* Pods-coswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-coswift/Pods-coswift.release.xcconfig"; sourceTree = "<group>"; };
+		69C1627D222F87E4003443AD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		69C1627E222F87E4003443AD /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		69C1627F222F87E4003443AD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69C16280222F87E4003443AD /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		69C16281222F87E4003443AD /* fishhook.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fishhook.podspec; sourceTree = "<group>"; };
 		A32FD4D221B64E6D008B4295 /* co_queuedebugging_support.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = co_queuedebugging_support.m; sourceTree = "<group>"; };
 		A35C049821EC366A00AC7D6E /* coswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = coswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35C049A21EC366A00AC7D6E /* coswift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coswift.h; sourceTree = "<group>"; };
@@ -110,11 +119,9 @@
 		A3FAA91521A2B06A00605F27 /* COChan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COChan.m; sourceTree = "<group>"; };
 		A3FAA91C21A2B09700605F27 /* COCoroutine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCoroutine.h; sourceTree = "<group>"; };
 		A3FAA91D21A2B09700605F27 /* COCoroutine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCoroutine.m; sourceTree = "<group>"; };
-		B83F808983E7DB693B20B7F8 /* libPods-coswift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coswift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85037CF1B9C6D8400864DF0 /* coobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = coobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85037D61B9C6D8400864DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D85037D71B9C6D8400864DF0 /* coobjc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coobjc-Prefix.pch"; sourceTree = "<group>"; };
-		DFFA02577192450EC6C700AF /* Pods-coobjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coobjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-coobjc/Pods-coobjc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +130,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3824E91221FFD5400B6BFE7 /* coobjc.framework in Frameworks */,
-				02656B86E0FEA409D7988199 /* libPods-coswift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +139,6 @@
 			files = (
 				A37DDF831E8A62E400E11BD9 /* Foundation.framework in Frameworks */,
 				A37DDF811E8A62DF00E11BD9 /* UIKit.framework in Frameworks */,
-				5D7EAFC6EF37EC2817208282 /* libPods-coobjc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,15 +210,16 @@
 			path = objc;
 			sourceTree = "<group>";
 		};
-		4F83B0FDFBBD64656B7DCD45 /* Pods */ = {
+		69C1627C222F87E4003443AD /* fishhook */ = {
 			isa = PBXGroup;
 			children = (
-				1C21392EBD5DCF258D11E284 /* Pods-coobjc.debug.xcconfig */,
-				DFFA02577192450EC6C700AF /* Pods-coobjc.release.xcconfig */,
-				090CF6E574DD4748505F69A2 /* Pods-coswift.debug.xcconfig */,
-				78543E2E7A973683F37BF1C8 /* Pods-coswift.release.xcconfig */,
+				69C1627D222F87E4003443AD /* LICENSE */,
+				69C1627E222F87E4003443AD /* fishhook.c */,
+				69C1627F222F87E4003443AD /* README.md */,
+				69C16280222F87E4003443AD /* fishhook.h */,
+				69C16281222F87E4003443AD /* fishhook.podspec */,
 			);
-			name = Pods;
+			path = fishhook;
 			sourceTree = "<group>";
 		};
 		A35C049921EC366A00AC7D6E /* coswift */ = {
@@ -242,11 +248,11 @@
 		D85037C41B9C6D8400864DF0 = {
 			isa = PBXGroup;
 			children = (
+				69C1627C222F87E4003443AD /* fishhook */,
 				D85037D41B9C6D8400864DF0 /* coobjc */,
 				A35C049921EC366A00AC7D6E /* coswift */,
 				D85037D11B9C6D8400864DF0 /* Frameworks */,
 				D85037D01B9C6D8400864DF0 /* Products */,
-				4F83B0FDFBBD64656B7DCD45 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,8 +270,6 @@
 			children = (
 				A37DDF821E8A62E400E11BD9 /* Foundation.framework */,
 				A37DDF801E8A62DF00E11BD9 /* UIKit.framework */,
-				539E1B31B66ADA95F4988159 /* libPods-coobjc.a */,
-				B83F808983E7DB693B20B7F8 /* libPods-coswift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -301,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3824E94221FFEC200B6BFE7 /* coswift.h in Headers */,
+				69C16289222F87E4003443AD /* fishhook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +330,7 @@
 				A39A8CAE2226695900A18C69 /* co_tuple.h in Headers */,
 				1807602621A256B5006FD552 /* co_queue.h in Headers */,
 				D85037D81B9C6D8400864DF0 /* coobjc-Prefix.pch in Headers */,
+				69C16288222F87E4003443AD /* fishhook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +341,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A35C049F21EC366A00AC7D6E /* Build configuration list for PBXNativeTarget "coswift" */;
 			buildPhases = (
-				B52C0F8BBD444C4F13BA71BA /* [CP] Check Pods Manifest.lock */,
 				A35C049321EC366A00AC7D6E /* Headers */,
 				A35C049421EC366A00AC7D6E /* Sources */,
 				A35C049521EC366A00AC7D6E /* Frameworks */,
@@ -355,7 +360,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D85037E11B9C6D8500864DF0 /* Build configuration list for PBXNativeTarget "coobjc" */;
 			buildPhases = (
-				EAD5836EB0D80604FA3AF3D8 /* [CP] Check Pods Manifest.lock */,
 				D85037C91B9C6D8400864DF0 /* Sources */,
 				D85037CA1B9C6D8400864DF0 /* Frameworks */,
 				D85037CB1B9C6D8400864DF0 /* Headers */,
@@ -376,12 +380,12 @@
 		D85037C51B9C6D8400864DF0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Alibaba lnc.";
 				TargetAttributes = {
 					A35C049721EC366A00AC7D6E = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					D85037CE1B9C6D8400864DF0 = {
@@ -391,7 +395,7 @@
 			};
 			buildConfigurationList = D85037C81B9C6D8400864DF0 /* Build configuration list for PBXProject "coobjc" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -413,6 +417,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C16287222F87E4003443AD /* README.md in Resources */,
+				69C1628B222F87E4003443AD /* fishhook.podspec in Resources */,
+				69C16283222F87E4003443AD /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,49 +427,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C16286222F87E4003443AD /* README.md in Resources */,
+				69C1628A222F87E4003443AD /* fishhook.podspec in Resources */,
+				69C16282222F87E4003443AD /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B52C0F8BBD444C4F13BA71BA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-coswift-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EAD5836EB0D80604FA3AF3D8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-coobjc-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A35C049421EC366A00AC7D6E /* Sources */ = {
@@ -473,6 +444,7 @@
 				A35C04A121EC369F00AC7D6E /* Promise.swift in Sources */,
 				A3D67CE321EDF57F009328CC /* coswift.swift in Sources */,
 				A3D67CE121EDF56E009328CC /* Errors.swift in Sources */,
+				69C16285222F87E4003443AD /* fishhook.c in Sources */,
 				A35C04A321EC36AD00AC7D6E /* Chan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +455,7 @@
 			files = (
 				A39A8CAF2226695900A18C69 /* co_tuple.m in Sources */,
 				1827C57E219AE57E0004CE59 /* coroutine_context.m in Sources */,
+				69C16284222F87E4003443AD /* fishhook.c in Sources */,
 				1807602721A256B5006FD552 /* co_queue.m in Sources */,
 				18EE50AF21AE7DA400F244B6 /* COActorCompletable.m in Sources */,
 				1827C57F219AE57E0004CE59 /* coroutine.m in Sources */,
@@ -513,7 +486,6 @@
 /* Begin XCBuildConfiguration section */
 		A35C049D21EC366A00AC7D6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 090CF6E574DD4748505F69A2 /* Pods-coswift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -533,7 +505,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -558,7 +530,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -567,7 +539,6 @@
 		};
 		A35C049E21EC366A00AC7D6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78543E2E7A973683F37BF1C8 /* Pods-coswift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -587,7 +558,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -609,7 +580,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -621,21 +592,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -661,17 +644,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -687,14 +681,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
 		D85037E21B9C6D8500864DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C21392EBD5DCF258D11E284 /* Pods-coobjc.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;
@@ -722,9 +715,7 @@
 		};
 		D85037E31B9C6D8500864DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFFA02577192450EC6C700AF /* Pods-coobjc.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;

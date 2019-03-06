@@ -33,7 +33,7 @@
 #include <execinfo.h>
 #import "co_errors.h"
 #import <pthread/pthread.h>
-#import <fishhook/fishhook.h>
+#import "fishhook.h"
 #import <objc/runtime.h>
 
 BOOL co_enableAutorelease = YES;

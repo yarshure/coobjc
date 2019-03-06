@@ -30,15 +30,12 @@
 		18EE50AE21AE7DA400F244B6 /* COActorCompletable.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EE50AC21AE7DA400F244B6 /* COActorCompletable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18EE50AF21AE7DA400F244B6 /* COActorCompletable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE50AD21AE7DA400F244B6 /* COActorCompletable.m */; };
 		69C16282222F87E4003443AD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69C1627D222F87E4003443AD /* LICENSE */; };
-		69C16283222F87E4003443AD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 69C1627D222F87E4003443AD /* LICENSE */; };
 		69C16284222F87E4003443AD /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 69C1627E222F87E4003443AD /* fishhook.c */; };
 		69C16285222F87E4003443AD /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 69C1627E222F87E4003443AD /* fishhook.c */; };
 		69C16286222F87E4003443AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69C1627F222F87E4003443AD /* README.md */; };
-		69C16287222F87E4003443AD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69C1627F222F87E4003443AD /* README.md */; };
 		69C16288222F87E4003443AD /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C16280222F87E4003443AD /* fishhook.h */; };
 		69C16289222F87E4003443AD /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C16280222F87E4003443AD /* fishhook.h */; };
 		69C1628A222F87E4003443AD /* fishhook.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 69C16281222F87E4003443AD /* fishhook.podspec */; };
-		69C1628B222F87E4003443AD /* fishhook.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 69C16281222F87E4003443AD /* fishhook.podspec */; };
 		A32FD4D321B64E6D008B4295 /* co_queuedebugging_support.m in Sources */ = {isa = PBXBuildFile; fileRef = A32FD4D221B64E6D008B4295 /* co_queuedebugging_support.m */; };
 		A35C04A121EC369F00AC7D6E /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C04A021EC369F00AC7D6E /* Promise.swift */; };
 		A35C04A321EC36AD00AC7D6E /* Chan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C04A221EC36AD00AC7D6E /* Chan.swift */; };
@@ -417,9 +414,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C16287222F87E4003443AD /* README.md in Resources */,
-				69C1628B222F87E4003443AD /* fishhook.podspec in Resources */,
-				69C16283222F87E4003443AD /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +515,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.coswift;
@@ -573,7 +567,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.coswift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -694,6 +688,7 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -701,8 +696,9 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = coobjc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.coobjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -722,6 +718,7 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -729,8 +726,9 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = coobjc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				OTHER_CFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.coobjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
